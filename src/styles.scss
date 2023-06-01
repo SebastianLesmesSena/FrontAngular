@@ -1,0 +1,131 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.header {
+  
+  background-color: red;
+  display: flex;
+  align-items: center;
+}
+.header h1 {
+  margin: 0;
+}
+.header img {
+  width: 40px;
+  margin-left: 1100px;
+}
+
+#Acompañanos p{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.616);
+}
+
+#Multimedia .image-gallery {
+  display: flex;
+  overflow-x: scroll;
+} 
+#Multimedia .image-gallery img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+}
+#Multimedia .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+#Multimedia .gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div h2 {
+  background-image: url("./assets/fondo_imagen.png");
+  background-size: cover;
+  background-position: center;
+  color: rgb(255, 255, 255);
+  padding: 40px;
+  text-align: center;
+}
+
+#Nosotros div p{
+  margin-left: 30px;
+}
+#Horarios div section{
+  background-color: rgb(187, 182, 182);
+  box-shadow: 0 2px 5px rgba(12, 12, 12, 0.815);
+}
+#Horarios div section h2{
+  color: aliceblue;
+  text-align: left;
+}
+#Horarios div section p{
+  text-align: center;
+  color: rgb(88, 87, 87);
+}
+#Horarios div aside{
+  text-align: center;
+  padding-left: 3%;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgb(187, 182, 182);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.692);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  background-color: #ff0101;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+  form input[type="submit"]:hover {
+  background-color: #1100ff;
+  color: aqua;
+}
+
+form h3{
+  text-align: center;
+}
+
+footer {
+  background-color: red;
+  color: aliceblue;
+  text-align: right;
+  align-items: left;
+  height: 50px;
+  width: 100%;
+}
+footer p{
+  margin-right: 50px;
+}
+div article{
+  text-align: center;
+}
